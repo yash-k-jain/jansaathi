@@ -14,7 +14,6 @@
 - **Frontend**: Next.js (App Router), Tailwind CSS
 - **Backend**: Next.js API Routes
 - **AI Integration**: OpenAI GPT API
-- **Database**: MongoDB (for storing scheme details and user preferences)
 
 ## 📂 Project Structure
 ```
@@ -33,18 +32,17 @@
 ## ⚙️ Installation & Setup
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-repo/government-scheme-analyzer.git
-cd government-scheme-analyzer
+git clone https://github.com/yash-k-jain/jansaathi.git
+cd jansaathi
 ```
 ### 2️⃣ Install Dependencies
 ```bash
 npm install
 ```
 ### 3️⃣ Set Up Environment Variables
-Create a `.env` file in the root directory and add:
+Create a `.env.local` file in the root directory and add:
 ```env
 OPENAI_API_KEY=your_openai_api_key
-MONGO_URI=your_mongodb_connection_string
 NEXT_PUBLIC_API_URL=your_api_url
 ```
 

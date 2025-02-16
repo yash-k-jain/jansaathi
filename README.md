@@ -42,8 +42,7 @@ npm install
 ### 3️⃣ Set Up Environment Variables
 Create a `.env.local` file in the root directory and add:
 ```env
-OPENAI_API_KEY=your_openai_api_key
-NEXT_PUBLIC_API_URL=your_api_url
+OPENAI_SECRET_KEY=your_openai_api_key
 ```
 
 ### 4️⃣ Start the Application
